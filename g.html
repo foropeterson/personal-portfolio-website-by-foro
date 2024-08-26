@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peterson Foro - Fullstack Developer</title>
+</head>
+<body style="font-family: 'Arial', sans-serif; margin: 0; padding: 0; background: #f7f9fc; color: #333;">
+
+    <header style="background: linear-gradient(135deg, #6e45e2, #88d3ce); color: white; padding: 1em 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <nav style="text-align: center;">
+            <ul style="list-style: none; margin: 0; padding: 0;">
+                <li style="display: inline; margin: 0 20px;">
+                    <a href="#home" style="color: white; text-decoration: none; font-size: 1.2em; transition: color 0.3s;">Home</a>
+                </li>
+                <li style="display: inline; margin: 0 20px;">
+                    <a href="#about" style="color: white; text-decoration: none; font-size: 1.2em; transition: color 0.3s;">About</a>
+                </li>
+                <li style="display: inline; margin: 0 20px;">
+                    <a href="#projects" style="color: white; text-decoration: none; font-size: 1.2em; transition: color 0.3s;">Projects</a>
+                </li>
+                <li style="display: inline; margin: 0 20px;">
+                    <a href="#contact" style="color: white; text-decoration: none; font-size: 1.2em; transition: color 0.3s;">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" style="padding: 4em 2em; text-align: center; background: #fff; border-bottom: 2px solid #ddd;">
+        <h1 style="font-size: 2.8em; margin-bottom: 0.5em;">Hello, I'm Peterson Foro</h1>
+        <p style="font-size: 1.3em; color: #555; margin-bottom: 1.5em;">A Fullstack Developer specializing in Python and cutting-edge web technologies.</p>
+        <a href="#contact" style="background-color: #007bff; color: white; padding: 15px 30px; text-decoration: none; border-radius: 30px; font-size: 1.2em; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: background-color 0.3s, transform 0.3s; display: inline-block;">Get in Touch</a>
+    </section>
+
+    <section id="about" style="padding: 4em 2em; background: #fff; border-bottom: 2px solid #ddd;">
+        <h2 style="font-size: 2.5em; border-bottom: 2px solid #007bff; display: inline-block; padding-bottom: 0.5em; margin-bottom: 1em;">About Me</h2>
+        <p style="font-size: 1.2em; color: #666; margin-bottom: 2em;">With a background in both front-end and back-end development, I bring a full range of skills to the table. I thrive in collaborative environments and enjoy tackling challenging problems.</p>
+        <h3 style="font-size: 1.8em; margin-top: 2em; margin-bottom: 1em;">Skills & Technologies</h3>
+        <ul style="padding-left: 20px; font-size: 1.2em; list-style: disc;">
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Bootstrap, C, C++</li>
+            <li>Python, Django, MySQL, Django REST Framework</li>
+        </ul>
+    </section>
+
+    <section id="projects" style="padding: 4em 2em; background: #f9f9f9;">
+        <h2 style="font-size: 2.5em; border-bottom: 2px solid #007bff; display: inline-block; padding-bottom: 0.5em; margin-bottom: 1em;">My Projects</h2>
+        <div style="background: white; padding: 2em; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 2em;">
+            <h3 style="font-size: 1.8em; margin-bottom: 0.5em;">Project Title</h3>
+            <p style="font-size: 1.2em; color: #555; margin-bottom: 1em;">Description of the project, technologies used, and its impact. This project demonstrates my ability to tackle complex problems and deliver high-quality solutions.</p>
+            <a href="#" style="color: #007bff; text-decoration: none; font-weight: bold; font-size: 1.2em;">View Project</a>
+        </div>
+        <!-- Repeat for more projects -->
+    </section>
+
+    <section id="contact" style="padding: 4em 2em; background: #fff;">
+        <h2 style="font-size: 2.5em; border-bottom: 2px solid #007bff; display: inline-block; padding-bottom: 0.5em; margin-bottom: 1em;">Contact Me</h2>
+        <form action="your-server-endpoint" method="post" style="max-width: 600px; margin: auto;">
+            <div style="margin-bottom: 1.5em;">
+                <label for="name" style="display: block; margin-bottom: 0.5em; font-size: 1.2em;">Name:</label>
+                <input type="text" id="name" name="name" required style="width: 100%; padding: 0.8em; font-size: 1em; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+            <div style="margin-bottom: 1.5em;">
+                <label for="email" style="display: block; margin-bottom: 0.5em; font-size: 1.2em;">Email:</label>
+                <input type="email" id="email" name="email" required style="width: 100%; padding: 0.8em; font-size: 1em; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+            <div style="margin-bottom: 1.5em;">
+                <label for="message" style="display: block; margin-bottom: 0.5em; font-size: 1.2em;">Message:</label>
+                <textarea id="message" name="message" required style="width: 100%; padding: 0.8em; font-size: 1em; border: 1px solid #ddd; border-radius: 5px;"></textarea>
+            </div>
+            <button type="submit" style="background-color: #007bff; color: white; padding: 15px 30px; border: none; border-radius: 30px; font-size: 1.2em; cursor: pointer; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: background-color 0.3s, transform 0.3s;">Send Message</button>
+        </form>
+    </section>
+
+    <footer style="background: #333; color: white; text-align: center; padding: 1em 0; box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);">
+        <p style="margin: 0; font-size: 1em;">&copy; 2024 Peterson Foro. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
